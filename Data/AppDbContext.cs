@@ -30,7 +30,7 @@ namespace MyBackendProject.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=Akram; Database=AppDbBG03; Trusted_Connection=True; TrustServerCertificate=True");
+                optionsBuilder.UseSqlServer("Server=Akram; Database=AppDbEF03; Trusted_Connection=True; TrustServerCertificate=True");
             }
         }
 
